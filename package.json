@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "CHROMATIC_APP_CODE=47lf81839qr chromatic"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +38,7 @@
     "fork-ts-checker-webpack-plugin": "^4.1.0",
     "jest": "^25.1.0",
     "react-docgen-typescript-loader": "^3.7.1",
+    "storybook-chromatic": "^3.5.2",
     "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   },
